@@ -12,18 +12,18 @@ const Header = () => (
             <i class="fa fa-youtube-play" aria-hidden="true"></i>
           </div>
           <div className="col-md header-links">
-            <p>
+            <a href='/submi-recipe'>
               <i class="fa fa-file-text-o" aria-hidden="true"></i>
               Submit Recipe
-            </p>
-            <p>
+            </a>
+            <a href="/saved-recipes">
               <i class="fa fa-heart-o" aria-hidden="true"></i>
               Saved Recipes
-            </p>
-            <p>
+            </a>
+            <a href="/login">
               <i class="fa fa-lock" aria-hidden="true"></i>
-              Signup/Login
-            </p>
+              Login
+            </a>
           </div>
         </div>
       </div>
