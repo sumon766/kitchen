@@ -14,15 +14,15 @@ const Header = () => (
           <div className="col-md header-links">
             <a href='/submi-recipe'>
               <i className="fa fa-file-text-o" aria-hidden="true"></i>
-              Submit Recipe
+              <span>Submit Recipe</span>
             </a>
             <a href="/saved-recipes">
               <i className="fa fa-heart-o" aria-hidden="true"></i>
-              Saved Recipes
+              <span>Saved Recipes</span>
             </a>
             <a href="/login">
               <i className="fa fa-lock" aria-hidden="true"></i>
-              Login
+              <span>Login</span>
             </a>
           </div>
         </div>
