@@ -24,11 +24,11 @@
 .header-links a span {
     font-family: 'Inter', sans-serif;
     font-size: 13px;
-    color: rgb(119, 119, 119);
+    color: rgb(99, 97, 97);
 }
 
 .header-links a > i {
-    margin-right: 5px;
+    margin-right: 7px;
 }
 
 .header-links a:hover, .header-links a span:hover {
